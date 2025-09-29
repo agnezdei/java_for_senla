@@ -10,7 +10,7 @@ class HangmanGame {
     private String usedLetters;
     
     public HangmanGame() {
-        String[] wordList = {"ВАМПИР", "ТРЕЗУБЕЦ", "ЭКСПЕРИМЕНТ", "ОГНЕТУШИТЕЛЬ"};
+        String[] wordList = {"ВАМПИР", "ТРЕЗУБЕЦ", "ЭКСПЕРИМЕНТ", "ОГНЕТУШИТЕЛЬ", "ПРИБОЙ"};
         
         Random random = new Random();
         this.secretWord = wordList[random.nextInt(wordList.length)];
