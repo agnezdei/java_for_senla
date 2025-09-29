@@ -16,7 +16,6 @@ class HangmanGame {
         this.secretWord = wordList[random.nextInt(wordList.length)];
         this.guessedLetters = new char[secretWord.length()];
         
-        // Заполняем массив подчеркиваниями
         for (int i = 0; i < guessedLetters.length; i++) {
             guessedLetters[i] = '_';
         }
